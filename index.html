@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<div class="w3-container w3-center w3-animate-top">
     <title>12 Times Table Loop</title>
-    </div>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <style>
+        /* General Body Styles */
         body {
             background-color: blue;
             color: black;
@@ -13,6 +12,24 @@
             font-family: Arial, sans-serif;
         }
 
+        /* Title Slide-In Animation */
+        h2 {
+            position: relative;
+            animation: slideInTop 1s ease-out;
+        }
+
+        @keyframes slideInTop {
+            from {
+                top: -100px;
+                opacity: 0;
+            }
+            to {
+                top: 0;
+                opacity: 1;
+            }
+        }
+
+        /* Box Styles */
         #box {
             background: white;
             color: black;
@@ -26,6 +43,7 @@
             font-family: 'Roboto', sans-serif;
         }
 
+        /* Output text styles */
         #output {
             font-size: 20px;
             line-height: 1.6;
@@ -48,6 +66,3 @@
     </script>
 </body>
 </html>
-
-
-
