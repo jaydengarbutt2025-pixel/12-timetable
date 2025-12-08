@@ -2,17 +2,39 @@
 <html>
 <head>
     <title>12 Times Table Loop</title>
+    <style>
+        body {
+            background-color: blue;
+            color: black;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        #box {
+            background: white;
+            color: black;
+            width: 40%;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            border: 3px solid black;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        }
+
+        #output {
+            font-size: 20px;
+            line-height: 1.6;
+        }
+    </style>
 </head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
 <body>
-    <div class="w3-container w3-red">
-     <h1>12 TIMES TABLE</h1>
-    <p id="output"></p>
-</div>
-    
-</head>
-   
+    <h2>12 TIMES TABLE</h2>
+
+    <div id="box">
+        <p id="output"></p>
+    </div>
+
     <script>
         let text = "";
         for (let i = 1; i <= 12; i++) {
@@ -22,7 +44,4 @@
     </script>
 </body>
 </html>
-
-
-
 
